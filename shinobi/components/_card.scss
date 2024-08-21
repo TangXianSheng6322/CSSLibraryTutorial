@@ -10,6 +10,7 @@
         font-size: $base-font-size;
         padding-bottom: $base-padding;
         font-weight: bold;
+        color: map-get($colors, "baby-peach");
     }
 
     .card-body {
