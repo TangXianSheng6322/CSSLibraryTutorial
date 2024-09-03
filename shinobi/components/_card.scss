@@ -1,23 +1,23 @@
-@use 'sass:math';
+@use "sass:math";
 
 .card {
-    display: block;
-    padding: $base-padding;
-    border: $base-border-thickness solid #ddd;
-    box-shadow: $base-box-shadow;
+  display: block;
+  padding: $base-padding;
+  border: $base-border-thickness solid #ddd;
+  box-shadow: $base-box-shadow;
 
-    .card-title {
-        font-size: $base-font-size;
-        padding-bottom: $base-padding;
-        font-weight: bold;
-        color: map-get($colors, "baby-peach");
+  .card-title {
+    font-size: $base-font-size;
+    padding-bottom: $base-padding;
+    font-weight: bold;
+    color: map-get($colors, "baby-peach");
+  }
+
+  .card-body {
+    font-size: $base-font-size;
+
+    a {
+      text-decoration: underline;
     }
-
-    .card-body {
-        font-size: $base-font-size;
-
-        a {
-            text-decoration: underline;
-        }
-    }
+  }
 }
